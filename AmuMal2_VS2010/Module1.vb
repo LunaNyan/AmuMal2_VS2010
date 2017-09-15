@@ -1,4 +1,7 @@
-﻿Imports System
+﻿'와웅..와웅와웅와웅..와웅와웅..
+'본 저작물은 저작권법의 보호를 받는 바, 원 저작자의 허가 없이 복제 및 전제를 금합니다.
+
+Imports System
 Imports System.IO
 Imports System.Collections
 
@@ -13,9 +16,9 @@ Module Module1
         Console.ForegroundColor = ConsoleColor.White
         Console.Clear()
 
-        Console.WriteLine("아무말 v2.20")
+        Console.WriteLine("아무말 v2.21")
         Console.WriteLine(" ")
-        Console.WriteLine("Build by null, at 20170623. Twitter @ItsLunaNyan")
+        Console.WriteLine("Build by 루나냥, at 20170915. Twitter @ItsLunaNyan")
         Console.WriteLine("Repo : https://github.com/NewMoneL/AmuMal2_VS2010")
         Console.WriteLine(" ")
         Console.Title = "아무말"
@@ -77,9 +80,12 @@ Module Module1
         Print(FileNum, vbCrLf & "----------")
         FileClose(FileNum)
 
+        Dim infoReader As System.IO.FileInfo
+        infoReader = My.Computer.FileSystem.GetFileInfo(FileName)
+
         Console.WriteLine(" ")
         Console.WriteLine("기록되었습니다.")
-        Console.WriteLine(Format(Now, "yyyy-MM-dd hh:mm:ss"))
+        Console.WriteLine(Format(Now, "yyyy-MM-dd hh:mm:ss") & ", 파일 용량 : " & infoReader.Length & " Bytes")
         Console.WriteLine(" ")
 
     End Sub
@@ -128,9 +134,12 @@ Module Module1
         Print(FileNum, vbCrLf & "----------")
         FileClose(FileNum)
 
+        Dim infoReader As System.IO.FileInfo
+        infoReader = My.Computer.FileSystem.GetFileInfo(FileName)
+
         Console.WriteLine(" ")
         Console.WriteLine("기록되었습니다.")
-        Console.WriteLine(Format(Now, "yyyy-MM-dd hh:mm:ss"))
+        Console.WriteLine(Format(Now, "yyyy-MM-dd hh:mm:ss") & ", 파일 용량 : " & infoReader.Length & " Bytes")
         Console.WriteLine(" ")
 
     End Sub

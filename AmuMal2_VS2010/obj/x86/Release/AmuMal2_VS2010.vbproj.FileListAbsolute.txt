@@ -1,0 +1,8 @@
+G:\TOOLS\amumal\소스\VS2010\AmuMal2_VS2010\AmuMal2_VS2010\bin\Release\AmuMal2_VS2010.exe
+G:\TOOLS\amumal\소스\VS2010\AmuMal2_VS2010\AmuMal2_VS2010\bin\Release\AmuMal2_VS2010.pdb
+G:\TOOLS\amumal\소스\VS2010\AmuMal2_VS2010\AmuMal2_VS2010\bin\Release\AmuMal2_VS2010.xml
+G:\TOOLS\amumal\소스\VS2010\AmuMal2_VS2010\AmuMal2_VS2010\obj\x86\Release\AmuMal2_VS2010.Resources.resources
+G:\TOOLS\amumal\소스\VS2010\AmuMal2_VS2010\AmuMal2_VS2010\obj\x86\Release\AmuMal2_VS2010.vbproj.GenerateResource.Cache
+G:\TOOLS\amumal\소스\VS2010\AmuMal2_VS2010\AmuMal2_VS2010\obj\x86\Release\AmuMal2_VS2010.exe
+G:\TOOLS\amumal\소스\VS2010\AmuMal2_VS2010\AmuMal2_VS2010\obj\x86\Release\AmuMal2_VS2010.xml
+G:\TOOLS\amumal\소스\VS2010\AmuMal2_VS2010\AmuMal2_VS2010\obj\x86\Release\AmuMal2_VS2010.pdb
