@@ -1,4 +1,6 @@
 # AmuMal2_VS2010
+This solution needs Visal Studio 2010 or above.
+
 이 프로그램은 타임라인 방식으로 메모를 기록하는 프로그램입니다.
 간단히 메모할 내용을 입력하고 Enter을 눌러 등록합니다.")
 
