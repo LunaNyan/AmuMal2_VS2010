@@ -6,3 +6,11 @@ G:\TOOLS\amumal\소스\VS2010\AmuMal2_VS2010\AmuMal2_VS2010\obj\x86\Debug\AmuMal
 G:\TOOLS\amumal\소스\VS2010\AmuMal2_VS2010\AmuMal2_VS2010\obj\x86\Debug\AmuMal2_VS2010.exe
 G:\TOOLS\amumal\소스\VS2010\AmuMal2_VS2010\AmuMal2_VS2010\obj\x86\Debug\AmuMal2_VS2010.xml
 G:\TOOLS\amumal\소스\VS2010\AmuMal2_VS2010\AmuMal2_VS2010\obj\x86\Debug\AmuMal2_VS2010.pdb
+H:\Tools\amumal\소스\VS2010\AmuMal2_VS2010\AmuMal2_VS2010\obj\x86\Debug\AmuMal2_VS2010.exe
+H:\Tools\amumal\소스\VS2010\AmuMal2_VS2010\AmuMal2_VS2010\obj\x86\Debug\AmuMal2_VS2010.xml
+H:\Tools\amumal\소스\VS2010\AmuMal2_VS2010\AmuMal2_VS2010\obj\x86\Debug\AmuMal2_VS2010.pdb
+H:\Tools\amumal\소스\VS2010\AmuMal2_VS2010\AmuMal2_VS2010\bin\Debug\AmuMal2_VS2010.exe
+H:\Tools\amumal\소스\VS2010\AmuMal2_VS2010\AmuMal2_VS2010\bin\Debug\AmuMal2_VS2010.pdb
+H:\Tools\amumal\소스\VS2010\AmuMal2_VS2010\AmuMal2_VS2010\bin\Debug\AmuMal2_VS2010.xml
+H:\Tools\amumal\소스\VS2010\AmuMal2_VS2010\AmuMal2_VS2010\obj\x86\Debug\AmuMal2_VS2010.Resources.resources
+H:\Tools\amumal\소스\VS2010\AmuMal2_VS2010\AmuMal2_VS2010\obj\x86\Debug\AmuMal2_VS2010.vbproj.GenerateResource.Cache

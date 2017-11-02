@@ -16,16 +16,14 @@ Module Module1
         Console.ForegroundColor = ConsoleColor.White
         Console.Clear()
 
-        Console.WriteLine("아무말 v2.22")
+        Console.WriteLine("아무말 v2.21")
         Console.WriteLine(" ")
-        Console.WriteLine("Build by 루나냥, at 20171003. Twitter @ItsLunaNyan")
+        Console.WriteLine("Build by 루나냥, at 20170915. Twitter @ItsLunaNyan")
         Console.WriteLine("Repo : https://github.com/NewMoneL/AmuMal2_VS2010")
         Console.WriteLine(" ")
         Console.Title = "아무말"
 
         If System.IO.File.Exists(System.IO.Directory.GetCurrentDirectory & "\amumal.txt") = False Then
-            Console.WriteLine("기록된 내용이 없어 초기설정을 시작합니다.")
-            Console.WriteLine(" ")
             Console.WriteLine("이 프로그램은 타임라인 방식으로 메모를 기록하는 프로그램입니다.")
             Console.WriteLine("간단히 메모할 내용을 입력하고 Enter을 눌러 등록합니다.")
             Console.WriteLine(" ")
