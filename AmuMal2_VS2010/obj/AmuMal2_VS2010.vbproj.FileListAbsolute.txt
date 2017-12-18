@@ -1,0 +1,12 @@
+C:\Users\Administrator\Documents\Visual Studio 2005\Projects\AmuMal2_VS2010\AmuMal2_VS2010\obj\Debug\AmuMal2_VS2010.exe
+C:\Users\Administrator\Documents\Visual Studio 2005\Projects\AmuMal2_VS2010\AmuMal2_VS2010\obj\Debug\AmuMal2_VS2010.xml
+C:\Users\Administrator\Documents\Visual Studio 2005\Projects\AmuMal2_VS2010\AmuMal2_VS2010\obj\Debug\AmuMal2_VS2010.pdb
+C:\Users\Administrator\Documents\Visual Studio 2005\Projects\AmuMal2_VS2010\AmuMal2_VS2010\bin\Release\AmuMal2_VS2010.exe
+C:\Users\Administrator\Documents\Visual Studio 2005\Projects\AmuMal2_VS2010\AmuMal2_VS2010\bin\Release\AmuMal2_VS2010.pdb
+C:\Users\Administrator\Documents\Visual Studio 2005\Projects\AmuMal2_VS2010\AmuMal2_VS2010\bin\Release\AmuMal2_VS2010.xml
+C:\Users\Administrator\Documents\Visual Studio 2005\Projects\AmuMal2_VS2010\AmuMal2_VS2010\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2005\Projects\AmuMal2_VS2010\AmuMal2_VS2010\obj\Release\AmuMal2_VS2010.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2005\Projects\AmuMal2_VS2010\AmuMal2_VS2010\obj\Release\AmuMal2_VS2010.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2005\Projects\AmuMal2_VS2010\AmuMal2_VS2010\obj\Release\AmuMal2_VS2010.exe
+C:\Users\Administrator\Documents\Visual Studio 2005\Projects\AmuMal2_VS2010\AmuMal2_VS2010\obj\Release\AmuMal2_VS2010.xml
+C:\Users\Administrator\Documents\Visual Studio 2005\Projects\AmuMal2_VS2010\AmuMal2_VS2010\obj\Release\AmuMal2_VS2010.pdb

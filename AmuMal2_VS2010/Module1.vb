@@ -1,5 +1,5 @@
-ï»¿'ì™€ì›…..ì™€ì›…ì™€ì›…ì™€ì›…..ì™€ì›…ì™€ì›…..
-'ë³¸ ì €ì‘ë¬¼ì€ ì €ì‘ê¶Œë²•ì˜ ë³´í˜¸ë¥¼ ë°›ëŠ” ë°”, ì› ì €ì‘ìì˜ í—ˆê°€ ì—†ì´ ë³µì œ ë° ì „ì œë¥¼ ê¸ˆí•©ë‹ˆë‹¤.
+'¿Í¿õ..¿Í¿õ¿Í¿õ¿Í¿õ..¿Í¿õ¿Í¿õ..
+'º» ÀúÀÛ¹°Àº ÀúÀÛ±Ç¹ıÀÇ º¸È£¸¦ ¹Ş´Â ¹Ù, ¿ø ÀúÀÛÀÚÀÇ Çã°¡ ¾øÀÌ º¹Á¦ ¹× ÀüÁ¦¸¦ ±İÇÕ´Ï´Ù.
 
 Imports System
 Imports System.IO
@@ -16,25 +16,25 @@ Module Module1
         Console.ForegroundColor = ConsoleColor.White
         Console.Clear()
 
-        Console.WriteLine("ì•„ë¬´ë§ v2.21")
+        Console.WriteLine("¾Æ¹«¸» v2.22")
         Console.WriteLine(" ")
-        Console.WriteLine("Build by ë£¨ë‚˜ëƒ¥, at 20170915. Twitter @ItsLunaNyan")
+        Console.WriteLine("Build by ·ç³ª³É, at 20170915. Twitter @ItsLunaNyan")
         Console.WriteLine("Repo : https://github.com/NewMoneL/AmuMal2_VS2010")
         Console.WriteLine(" ")
-        Console.Title = "ì•„ë¬´ë§"
+        Console.Title = "¾Æ¹«¸»"
 
         If System.IO.File.Exists(System.IO.Directory.GetCurrentDirectory & "\amumal.txt") = False Then
-            Console.WriteLine("ì´ í”„ë¡œê·¸ë¨ì€ íƒ€ì„ë¼ì¸ ë°©ì‹ìœ¼ë¡œ ë©”ëª¨ë¥¼ ê¸°ë¡í•˜ëŠ” í”„ë¡œê·¸ë¨ì…ë‹ˆë‹¤.")
-            Console.WriteLine("ê°„ë‹¨íˆ ë©”ëª¨í•  ë‚´ìš©ì„ ì…ë ¥í•˜ê³  Enterì„ ëˆŒëŸ¬ ë“±ë¡í•©ë‹ˆë‹¤.")
+            Console.WriteLine("ÀÌ ÇÁ·Î±×·¥Àº Å¸ÀÓ¶óÀÎ ¹æ½ÄÀ¸·Î ¸Ş¸ğ¸¦ ±â·ÏÇÏ´Â ÇÁ·Î±×·¥ÀÔ´Ï´Ù.")
+            Console.WriteLine("°£´ÜÈ÷ ¸Ş¸ğÇÒ ³»¿ëÀ» ÀÔ·ÂÇÏ°í EnterÀ» ´­·¯ µî·ÏÇÕ´Ï´Ù.")
             Console.WriteLine(" ")
-            Console.WriteLine("ë©”ëª¨í•  ë‚´ìš© ëŒ€ì‹  ì›í•˜ëŠ” ëª…ë ¹ì–´ë¥¼ ì…ë ¥í•˜ë©´ ë™ì‘ì´ ìˆ˜í–‰ë©ë‹ˆë‹¤.")
-            Console.WriteLine("ëª…ë ¹ì–´ì— ëŒ€í•œ ìì„¸í•œ ë‚´ìš©ì´ í•„ìš”í•˜ë©´ helpë¥¼ ì…ë ¥í•˜ì„¸ìš”.")
+            Console.WriteLine("¸Ş¸ğÇÒ ³»¿ë ´ë½Å ¿øÇÏ´Â ¸í·É¾î¸¦ ÀÔ·ÂÇÏ¸é µ¿ÀÛÀÌ ¼öÇàµË´Ï´Ù.")
+            Console.WriteLine("¸í·É¾î¿¡ ´ëÇÑ ÀÚ¼¼ÇÑ ³»¿ëÀÌ ÇÊ¿äÇÏ¸é help¸¦ ÀÔ·ÂÇÏ¼¼¿ä.")
             Console.WriteLine(" ")
         End If
 
         Do
             Dim txtxt As String
-            Console.Write("ì…ë ¥:")
+            Console.Write("ÀÔ·Â:")
             txtxt = Console.ReadLine()
             Select Case txtxt
                 Case "help"
@@ -50,7 +50,7 @@ Module Module1
                     If System.IO.File.Exists(System.IO.Directory.GetCurrentDirectory & "\amumal.txt") = True Then
                         Process.Start(System.IO.Directory.GetCurrentDirectory & "\amumal.txt")
                     Else
-                        Console.WriteLine("ë°ì´í„°ë² ì´ìŠ¤ê°€ ì—†ê±°ë‚˜ ì•„ë¬´ ë‚´ìš©ë„ ì—†ìŠµë‹ˆë‹¤. ë¨¼ì € ë©”ëª¨ë¥¼ ì¶”ê°€í•˜ì„¸ìš”.")
+                        Console.WriteLine("µ¥ÀÌÅÍº£ÀÌ½º°¡ ¾ø°Å³ª ¾Æ¹« ³»¿ëµµ ¾ø½À´Ï´Ù. ¸ÕÀú ¸Ş¸ğ¸¦ Ãß°¡ÇÏ¼¼¿ä.")
                     End If
 
                 Case "copy"
@@ -84,31 +84,31 @@ Module Module1
         infoReader = My.Computer.FileSystem.GetFileInfo(FileName)
 
         Console.WriteLine(" ")
-        Console.WriteLine("ê¸°ë¡ë˜ì—ˆìŠµë‹ˆë‹¤.")
-        Console.WriteLine(Format(Now, "yyyy-MM-dd hh:mm:ss") & ", íŒŒì¼ ìš©ëŸ‰ : " & infoReader.Length & " Bytes")
+        Console.WriteLine("±â·ÏµÇ¾ú½À´Ï´Ù.")
+        Console.WriteLine(Format(Now, "yyyy-MM-dd hh:mm:ss") & ", ÆÄÀÏ ¿ë·® : " & infoReader.Length & " Bytes")
         Console.WriteLine(" ")
 
     End Sub
 
     Sub Help()
-        Console.WriteLine("ì´ í”„ë¡œê·¸ë¨ì€ íƒ€ì„ë¼ì¸ ë°©ì‹ìœ¼ë¡œ ë©”ëª¨ë¥¼ ê¸°ë¡í•˜ëŠ” í”„ë¡œê·¸ë¨ì…ë‹ˆë‹¤.")
-        Console.WriteLine("ê°„ë‹¨íˆ ë©”ëª¨í•  ë‚´ìš©ì„ ì…ë ¥í•˜ê³  Enterì„ ëˆŒëŸ¬ ë“±ë¡í•©ë‹ˆë‹¤.")
+        Console.WriteLine("ÀÌ ÇÁ·Î±×·¥Àº Å¸ÀÓ¶óÀÎ ¹æ½ÄÀ¸·Î ¸Ş¸ğ¸¦ ±â·ÏÇÏ´Â ÇÁ·Î±×·¥ÀÔ´Ï´Ù.")
+        Console.WriteLine("°£´ÜÈ÷ ¸Ş¸ğÇÒ ³»¿ëÀ» ÀÔ·ÂÇÏ°í EnterÀ» ´­·¯ µî·ÏÇÕ´Ï´Ù.")
         Console.WriteLine(" ")
-        Console.WriteLine("ë©”ëª¨í•  ë‚´ìš© ëŒ€ì‹  ì›í•˜ëŠ” ëª…ë ¹ì–´ë¥¼ ì…ë ¥í•˜ë©´ ë™ì‘ì´ ìˆ˜í–‰ë©ë‹ˆë‹¤.")
-        Console.WriteLine("ê³„ì†í•˜ë ¤ë©´ ì•„ë¬´ í‚¤ë‚˜ ëˆ„ë¥´ì‹­ì‹œì˜¤.")
+        Console.WriteLine("¸Ş¸ğÇÒ ³»¿ë ´ë½Å ¿øÇÏ´Â ¸í·É¾î¸¦ ÀÔ·ÂÇÏ¸é µ¿ÀÛÀÌ ¼öÇàµË´Ï´Ù.")
+        Console.WriteLine("°è¼ÓÇÏ·Á¸é ¾Æ¹« Å°³ª ´©¸£½Ê½Ã¿À.")
         Console.ReadKey()
-        Console.WriteLine("ëª…ë ¹ì–´ì™€ ë™ì‘ì€ ë‹¤ìŒê³¼ ê°™ìŠµë‹ˆë‹¤.")
+        Console.WriteLine("¸í·É¾î¿Í µ¿ÀÛÀº ´ÙÀ½°ú °°½À´Ï´Ù.")
         Console.WriteLine(" ")
-        Console.WriteLine("lf       ì—¬ëŸ¬ ì¤„ë¡œ ë©”ëª¨ë¥¼ ì‘ì„±í•©ë‹ˆë‹¤.")
-        Console.WriteLine("cls      í™”ë©´ì´ ì²­ì†Œë©ë‹ˆë‹¤.")
-        Console.WriteLine("open     ë°ì´í„°ë² ì´ìŠ¤ íŒŒì¼ì„ ì—½ë‹ˆë‹¤.")
-        Console.WriteLine("type     ë°ì´í„°ë² ì´ìŠ¤ íŒŒì¼ì„ í•´ë‹¹ ì½˜ì†”ì—ì„œ ëª¨ë‘ ì¶œë ¥í•©ë‹ˆë‹¤.")
-        Console.WriteLine("copy     ë°ì´í„°ë² ì´ìŠ¤ë¥¼ ìë™ ë°±ì—…í•©ë‹ˆë‹¤.")
-        Console.WriteLine("del      ë°ì´í„°ë² ì´ìŠ¤ë¥¼ ë°±ì—…í•˜ê³  ëª¨ë‘ ì²­ì†Œí•©ë‹ˆë‹¤.")
-        Console.WriteLine("exit     í”„ë¡œê·¸ë¨ì´ ì¢…ë£Œë©ë‹ˆë‹¤.")
+        Console.WriteLine("lf       ¿©·¯ ÁÙ·Î ¸Ş¸ğ¸¦ ÀÛ¼ºÇÕ´Ï´Ù.")
+        Console.WriteLine("cls      È­¸éÀÌ Ã»¼ÒµË´Ï´Ù.")
+        Console.WriteLine("open     µ¥ÀÌÅÍº£ÀÌ½º ÆÄÀÏÀ» ¿±´Ï´Ù.")
+        Console.WriteLine("type     µ¥ÀÌÅÍº£ÀÌ½º ÆÄÀÏÀ» ÇØ´ç ÄÜ¼Ö¿¡¼­ ¸ğµÎ Ãâ·ÂÇÕ´Ï´Ù.")
+        Console.WriteLine("copy     µ¥ÀÌÅÍº£ÀÌ½º¸¦ ÀÚµ¿ ¹é¾÷ÇÕ´Ï´Ù.")
+        Console.WriteLine("del      µ¥ÀÌÅÍº£ÀÌ½º¸¦ ¹é¾÷ÇÏ°í ¸ğµÎ Ã»¼ÒÇÕ´Ï´Ù.")
+        Console.WriteLine("exit     ÇÁ·Î±×·¥ÀÌ Á¾·áµË´Ï´Ù.")
         Console.WriteLine(" ")
-        Console.WriteLine("ìì„¸í•œ ì •ë³´ëŠ” í•´ë‹¹ í”„ë¡œê·¸ë¨ì— ëŒ€í•œ GitHub ë ˆí¬ì§€í† ë¦¬")
-        Console.WriteLine("(https://github.com/NewMoneL/AmuMal2)ë¥¼ ì°¸ì¡°í•´ì£¼ì„¸ìš”.")
+        Console.WriteLine("ÀÚ¼¼ÇÑ Á¤º¸´Â ÇØ´ç ÇÁ·Î±×·¥¿¡ ´ëÇÑ GitHub ·¹Æ÷ÁöÅä¸®")
+        Console.WriteLine("(https://github.com/NewMoneL/AmuMal2)¸¦ ÂüÁ¶ÇØÁÖ¼¼¿ä.")
         Console.WriteLine(" ")
     End Sub
 
@@ -116,7 +116,7 @@ Module Module1
         Dim txt2 As String
         Dim ExitMe As Boolean = False
 
-        Console.WriteLine("ì—¬ëŸ¬ ì¤„ë¡œ ë©”ëª¨ë¥¼ ì‘ì„±í•©ë‹ˆë‹¤. ëë‚´ë ¤ë©´ endë¥¼ ì…ë ¥í•˜ì„¸ìš”.")
+        Console.WriteLine("¿©·¯ ÁÙ·Î ¸Ş¸ğ¸¦ ÀÛ¼ºÇÕ´Ï´Ù. ³¡³»·Á¸é end¸¦ ÀÔ·ÂÇÏ¼¼¿ä.")
 
         Do While ExitMe = False
             txt2 = Console.ReadLine()
@@ -138,8 +138,8 @@ Module Module1
         infoReader = My.Computer.FileSystem.GetFileInfo(FileName)
 
         Console.WriteLine(" ")
-        Console.WriteLine("ê¸°ë¡ë˜ì—ˆìŠµë‹ˆë‹¤.")
-        Console.WriteLine(Format(Now, "yyyy-MM-dd hh:mm:ss") & ", íŒŒì¼ ìš©ëŸ‰ : " & infoReader.Length & " Bytes")
+        Console.WriteLine("±â·ÏµÇ¾ú½À´Ï´Ù.")
+        Console.WriteLine(Format(Now, "yyyy-MM-dd hh:mm:ss") & ", ÆÄÀÏ ¿ë·® : " & infoReader.Length & " Bytes")
         Console.WriteLine(" ")
 
     End Sub
@@ -150,10 +150,10 @@ Module Module1
 
         If System.IO.File.Exists(FileToCopy) = True Then
             System.IO.File.Copy(FileToCopy, NewCopy)
-            Console.WriteLine("ë°±ì—…ë˜ì—ˆìŠµë‹ˆë‹¤.")
-            Console.WriteLine("íŒŒì¼ ì´ë¦„ì€ " & NewCopy & " ì…ë‹ˆë‹¤.")
+            Console.WriteLine("¹é¾÷µÇ¾ú½À´Ï´Ù.")
+            Console.WriteLine("ÆÄÀÏ ÀÌ¸§Àº " & NewCopy & " ÀÔ´Ï´Ù.")
         Else
-            Console.WriteLine("ë°ì´í„°ë² ì´ìŠ¤ê°€ ì—†ê±°ë‚˜ ì•„ë¬´ ë‚´ìš©ë„ ì—†ìŠµë‹ˆë‹¤. ë¨¼ì € ë©”ëª¨ë¥¼ ì¶”ê°€í•˜ì„¸ìš”.")
+            Console.WriteLine("µ¥ÀÌÅÍº£ÀÌ½º°¡ ¾ø°Å³ª ¾Æ¹« ³»¿ëµµ ¾ø½À´Ï´Ù. ¸ÕÀú ¸Ş¸ğ¸¦ Ãß°¡ÇÏ¼¼¿ä.")
         End If
     End Sub
 
@@ -168,7 +168,7 @@ Module Module1
             Loop
             FileClose(FileNum)
         Else
-            Console.WriteLine("ë°ì´í„°ë² ì´ìŠ¤ê°€ ì—†ê±°ë‚˜ ì•„ë¬´ ë‚´ìš©ë„ ì—†ìŠµë‹ˆë‹¤. ë¨¼ì € ë©”ëª¨ë¥¼ ì¶”ê°€í•˜ì„¸ìš”.")
+            Console.WriteLine("µ¥ÀÌÅÍº£ÀÌ½º°¡ ¾ø°Å³ª ¾Æ¹« ³»¿ëµµ ¾ø½À´Ï´Ù. ¸ÕÀú ¸Ş¸ğ¸¦ Ãß°¡ÇÏ¼¼¿ä.")
         End If
 
     End Sub
@@ -180,7 +180,7 @@ Module Module1
         Print(FileNum, "")
         FileClose(FileNum)
 
-        Console.WriteLine("ì²­ì†Œë˜ì—ˆìŠµë‹ˆë‹¤.")
+        Console.WriteLine("Ã»¼ÒµÇ¾ú½À´Ï´Ù.")
     End Sub
 
 End Module

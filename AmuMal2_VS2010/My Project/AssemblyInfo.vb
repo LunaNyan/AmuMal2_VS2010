@@ -2,33 +2,33 @@
 Imports System.Reflection
 Imports System.Runtime.InteropServices
 
-' 어셈블리의 일반 정보는 다음 특성 집합을 통해 제어됩니다.
-' 어셈블리와 관련된 정보를 수정하려면
-' 이 특성 값을 변경하십시오.
+' General Information about an assembly is controlled through the following 
+' set of attributes. Change these attribute values to modify the information
+' associated with an assembly.
 
-' 어셈블리 특성 값을 검토합니다.
+' Review the values of the assembly attributes
 
 <Assembly: AssemblyTitle("AmuMal2_VS2010")> 
 <Assembly: AssemblyDescription("")> 
-<Assembly: AssemblyCompany("Microsoft")> 
+<Assembly: AssemblyCompany("")> 
 <Assembly: AssemblyProduct("AmuMal2_VS2010")> 
-<Assembly: AssemblyCopyright("Copyright © Microsoft 2017")> 
+<Assembly: AssemblyCopyright("Copyright ©  2017")> 
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>
 
-'이 프로젝트가 COM에 노출되는 경우 다음 GUID는 typelib의 ID를 나타냅니다.
-<Assembly: Guid("396D8627-AD8F-4F1B-B376-5275A9D02C96")> 
+'The following GUID is for the ID of the typelib if this project is exposed to COM
+<Assembly: Guid("115bb212-db24-4874-b667-952abd411557")> 
 
-' 어셈블리의 버전 정보는 다음 네 가지 값으로 구성됩니다.
+' Version information for an assembly consists of the following four values:
 '
-'      주 버전
-'      부 버전
-'      빌드 번호
-'      수정 버전
+'      Major Version
+'      Minor Version 
+'      Build Number
+'      Revision
 '
-' 모든 값을 지정하거나 아래와 같이 '*'를 사용하여 빌드 번호 및 수정 버전이 자동으로
-' 지정되도록 할 수 있습니다.
+' You can specify all the values or you can default the Build and Revision Numbers 
+' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
 <Assembly: AssemblyVersion("1.0.0.0")> 
