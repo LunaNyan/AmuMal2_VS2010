@@ -1,6 +1,9 @@
 # AmuMal2_VS2010
 This solution needs Visal Studio 2005 or above.
 
+## 해당 프로젝트는 무기한 동결됩니다.
+## 신작 [아무말3](https://github.com/LunaNyan/AmuMal3)
+
 이 프로그램은 타임라인 방식으로 메모를 기록하는 프로그램입니다.
 간단히 메모할 내용을 입력하고 Enter을 눌러 등록합니다.")
 
